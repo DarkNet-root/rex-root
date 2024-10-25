@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.img {
+    width: 460px;
+    height: 550px;
+    border-radius: 5% 10%;
+    object-fit: cover;
+}
+
+.botao {
+    margin-top: 0; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: purple;
+    color:wheat;
+    border: none;
+    border-radius: 5px;  
+}
+
+.botao:hover {
+    background-color: violet;
+}
+
